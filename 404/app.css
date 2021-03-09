@@ -1,0 +1,96 @@
+@media(min-width:320px){
+    *{
+        margin: 0;
+        padding:0;
+        line-height: 1.6;
+        font-family: 'Space Mono', monospace;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1200px;
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    p{
+        font-size: 16px;
+        color: #4F4F4F;
+    }
+    header{
+        position: fixed;
+        top:0;
+        left:0;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 100;
+        padding: 10px 0;
+    }
+    header h2{
+        color: black;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    main{
+        min-height: 100vh;
+        padding-top: 0px;
+    }
+    main h1{
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto 15px auto;
+        padding: 0 15px
+    }
+    main img{
+        max-width: 100%;
+        object-fit: cover;
+        margin: 25px auto;
+        display: block;
+    }
+    main a{
+        padding: 15px 25px;
+        color: white;
+        background-color: #333333;
+        margin: 20px auto 10px auto;
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none!important;
+        font-size: 14px;
+    }
+    footer{
+        padding: 10px 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    footer p{
+        color: #BDBDBD;
+    }
+}
+@media(min-width: 768px){
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main img{
+        margin: 0;
+        display: initial;
+    }
+    main h1{
+        text-align: left;
+        max-width:300px;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    main p{
+        max-width: 260px;
+    }
+}
+@media(min-width: 768px){
+    main{
+        height: 100vh;
+    }
+    main img{
+        margin: 25px 20px 25px 0;
+    }
+}
